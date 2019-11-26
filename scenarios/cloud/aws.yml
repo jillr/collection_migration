@@ -1,0 +1,26 @@
+_core:
+  callback:
+  - aws_resource_actions
+  inventory:
+  - aws_ec2
+  - aws_rds
+  lookup:
+  - aws_account_attribute
+  module_utils:
+  - ec2
+  - aws/core
+  modules:
+  - aws_s3
+  - cloudformation
+  - dynamodb_ttl
+  - ec2_group
+  - ec2_key
+  - ec2_metadata_facts
+  - ec2
+  - ec2_snapshot
+  - ec2_vol
+  - ec2_vpc_net_info
+  - ec2_vpc_net
+  - ec2_vpc_subnet_info
+  - ec2_vpc_subnet
+  - s3_bucket
