@@ -1,6 +1,10 @@
-_core:
+amazon:
   callback:
   - aws_resource_actions
+  doc_fragments:
+  - aws
+  - aws_credentials
+  - aws_region
   inventory:
   - aws_ec2
   - aws_rds
