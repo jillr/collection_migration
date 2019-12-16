@@ -18,6 +18,8 @@ amazon:
   module_utils:
   - ec2.py
   - aws/*
-  - cloud.py
   modules:
   - cloud/amazon/*
+common:
+  module_utils:
+  - cloud.py
