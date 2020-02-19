@@ -39,7 +39,6 @@ amazon:
   - cloud/amazon/_ec2_ami_facts.py
   - cloud/amazon/_ec2_eni_facts.py
   - cloud/amazon/_ec2_group_facts.py
-  - cloud/amazon/_ec2_instance_facts.py
   - cloud/amazon/_ec2_snapshot_facts.py
   - cloud/amazon/_ec2_vol_facts.py
   - cloud/amazon/_ec2_vpc_dhcp_option_facts.py
@@ -59,8 +58,6 @@ amazon:
   - cloud/amazon/ec2_eni_info.py
   - cloud/amazon/ec2_group.py
   - cloud/amazon/ec2_group_info.py
-  - cloud/amazon/ec2_instance.py
-  - cloud/amazon/ec2_instance_info.py
   - cloud/amazon/ec2_key.py
   - cloud/amazon/ec2_metadata_facts.py
   - cloud/amazon/ec2_snapshot.py

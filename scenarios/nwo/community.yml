@@ -13,6 +13,7 @@ amazon:
   - cloud/amazon/_cloudwatchlogs_log_group_facts.py
   - cloud/amazon/_ec2_asg_facts.py
   - cloud/amazon/_ec2_customer_gateway_facts.py
+  - cloud/amazon/_ec2_instance_facts.py
   - cloud/amazon/_ec2_eip_facts.py
   - cloud/amazon/_ec2_elb_facts.py
   - cloud/amazon/_ec2_lc_facts.py
@@ -107,6 +108,8 @@ amazon:
   - cloud/amazon/ec2_eip_info.py
   - cloud/amazon/ec2_elb.py
   - cloud/amazon/ec2_elb_info.py
+  - cloud/amazon/ec2_instance.py
+  - cloud/amazon/ec2_instance_info.py
   - cloud/amazon/ec2_launch_template.py
   - cloud/amazon/ec2_lc.py
   - cloud/amazon/ec2_lc_find.py
