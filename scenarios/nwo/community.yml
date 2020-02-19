@@ -32,7 +32,6 @@ amazon:
   - cloud/amazon/_elb_classic_lb_facts.py
   - cloud/amazon/_elb_target_facts.py
   - cloud/amazon/_elb_target_group_facts.py
-  - cloud/amazon/dynamodb_ttl.py
   - cloud/amazon/_iam_cert_facts.py
   - cloud/amazon/_iam_mfa_device_facts.py
   - cloud/amazon/_iam_role_facts.py
@@ -97,6 +96,7 @@ amazon:
   - cloud/amazon/dms_endpoint.py
   - cloud/amazon/dms_replication_subnet_group.py
   - cloud/amazon/dynamodb_table.py
+  - cloud/amazon/dynamodb_ttl.py
   - cloud/amazon/ec2_ami_copy.py
   - cloud/amazon/ec2_asg.py
   - cloud/amazon/ec2_asg_info.py
