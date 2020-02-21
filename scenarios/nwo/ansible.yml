@@ -63,6 +63,7 @@ amazon:
   - cloud/amazon/ec2_snapshot.py
   - cloud/amazon/ec2_snapshot_info.py
   - cloud/amazon/ec2_tag.py
+  - cloud/amazon/ec2_tag_info.py
   - cloud/amazon/ec2_vol.py
   - cloud/amazon/ec2_vol_info.py
   - cloud/amazon/ec2_vpc_dhcp_option.py
